@@ -213,7 +213,7 @@ __weak static UIViewController *_defaultViewController;
     }
     else
     {
-        CGFloat y = currentView.viewController.view.bounds.size.height - CGRectGetHeight(currentView.frame) / 2.0;
+        CGFloat y = currentView.viewController.view.bounds.size.height - CGRectGetHeight(currentView.frame) / 2.0 + verticalOffset;
         if (!currentView.viewController.navigationController.isToolbarHidden) {
             y -= CGRectGetHeight(currentView.viewController.navigationController.toolbar.bounds);
         }
