@@ -273,7 +273,7 @@ static NSMutableDictionary *_notificationDesign;
             self.button.frame = CGRectMake(screenWidth - TSMessageViewPadding - self.button.frame.size.width,
                                            0.0,
                                            self.button.frame.size.width,
-                                           31.0);
+                                           40.0);
             
             [self addSubview:self.button];
             
